@@ -1,0 +1,442 @@
+[
+  {
+    "id": "fda-spravato",
+    "title": "NDA 211243 approval package (Spravato, esketamine), FDA approval 5 Mar 2019",
+    "authors": "US FDA",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2019/211243Orig1s000Approv.pdf",
+    "year": 2019,
+    "quality": "Regulator; high"
+  },
+  {
+    "id": "fda-ketamine-compounded",
+    "title": "FDA warns patients and health care providers about potential risks associated with compounded ketamine products, including oral formulations (10 Oct 2023; archived copy linked from FDA Compounding Risk Alerts)",
+    "authors": "US FDA",
+    "url": "https://web.archive.org/web/20260530025451/https://www.fda.gov/drugs/human-drug-compounding/fda-warns-patients-and-health-care-providers-about-potential-risks-associated-compounded-ketamine",
+    "year": 2023,
+    "quality": "Regulator; high"
+  },
+  {
+    "id": "lykos-crl",
+    "title": "Lykos Therapeutics Announces Complete Response Letter for Midomafetamine Capsules for PTSD",
+    "authors": "Lykos Therapeutics (press release)",
+    "url": "https://www.prnewswire.com/news-releases/lykos-therapeutics-announces-complete-response-letter-for-midomafetamine-capsules-for-ptsd-302219182.html",
+    "year": 2024,
+    "quality": "Sponsor press release; reliable for fact of CRL, promotional otherwise"
+  },
+  {
+    "id": "compass-2026",
+    "title": "Compass Pathways Announces FDA Granted NDA Rolling Review Request and Awarded Commissioner's National Priority Voucher",
+    "authors": "Compass Pathways (press release)",
+    "url": "https://ir.compasspathways.com/News--Events-/news/news-details/2026/Compass-Pathways-Announces-FDA-Granted-NDA-Rolling-Review-Request-and-Awarded-Commissioners-National-Priority-Voucher/default.aspx",
+    "year": 2026,
+    "quality": "Sponsor press release; efficacy wording promotional"
+  },
+  {
+    "id": "goodwin-2022",
+    "title": "Single-Dose Psilocybin for a Treatment-Resistant Episode of Major Depression (NEJM 387:1637-1648)",
+    "authors": "Goodwin GM et al.",
+    "url": "https://doi.org/10.1056/NEJMoa2206443",
+    "year": 2022,
+    "quality": "Phase 2b RCT, n=233; high"
+  },
+  {
+    "id": "mitchell-2021",
+    "title": "MDMA-assisted therapy for severe PTSD: a randomized, double-blind, placebo-controlled phase 3 study (Nat Med 27:1025-1033)",
+    "authors": "Mitchell JM et al.",
+    "url": "https://doi.org/10.1038/s41591-021-01336-3",
+    "year": 2021,
+    "quality": "Phase 3 RCT; functional unblinding concerns raised by FDA AdComm"
+  },
+  {
+    "id": "hofmann-lsd",
+    "title": "LSD: My Problem Child",
+    "authors": "Hofmann A",
+    "url": "https://maps.org/images/pdf/books/lsdmyproblemchild.pdf",
+    "year": 1980,
+    "quality": "Primary historical memoir; high for history"
+  },
+  {
+    "id": "wasson-1957",
+    "title": "Seeking the Magic Mushroom (Life magazine, 13 May 1957)",
+    "authors": "Wasson RG",
+    "url": "https://www.psychedelic-library.org/life.htm",
+    "year": 1957,
+    "quality": "Primary historical source"
+  },
+  {
+    "id": "un-1971",
+    "title": "Convention on Psychotropic Substances, 1971",
+    "authors": "United Nations",
+    "url": "https://www.unodc.org/pdf/convention_1971_en.pdf",
+    "year": 1971,
+    "quality": "Treaty; authoritative for international scheduling"
+  },
+  {
+    "id": "gonzales-udv",
+    "title": "Gonzales v. O Centro Espirita Beneficente Uniao do Vegetal, 546 U.S. 418",
+    "authors": "US Supreme Court",
+    "url": "https://supreme.justia.com/cases/federal/us/546/418/",
+    "year": 2006,
+    "quality": "Court ruling; authoritative"
+  },
+  {
+    "id": "airfa-1994",
+    "title": "American Indian Religious Freedom Act Amendments of 1994 (peyote)",
+    "authors": "US Congress",
+    "url": "https://www.congress.gov/bill/103rd-congress/house-bill/4230",
+    "year": 1994,
+    "quality": "Statute; authoritative"
+  },
+  {
+    "id": "schifano-ibogaine",
+    "title": "The Anti-Addiction Drug Ibogaine and the Heart: A Delicate Relation (Molecules 20:2208)",
+    "authors": "Koenig X, Hilber K",
+    "url": "https://doi.org/10.3390/molecules20022208",
+    "year": 2015,
+    "quality": "Narrative review; moderate"
+  },
+  {
+    "id": "noller-2018",
+    "title": "Ibogaine treatment outcomes for opioid dependence from a twelve-month follow-up observational study (Am J Drug Alcohol Abuse 44:37-46)",
+    "authors": "Noller GE, Frampton CM, Yazar-Klosinski B",
+    "url": "https://doi.org/10.1080/00952990.2017.1310218",
+    "year": 2018,
+    "quality": "Observational, n=14 (8 completers); low"
+  },
+  {
+    "id": "cherian-2024",
+    "title": "Magnesium-ibogaine therapy in veterans with traumatic brain injuries (Nat Med 30:373-381)",
+    "authors": "Cherian KN et al.",
+    "url": "https://doi.org/10.1038/s41591-023-02705-w",
+    "year": 2024,
+    "quality": "Open-label n=30; low-moderate"
+  },
+  {
+    "id": "davis-5meo",
+    "title": "5-MeO-DMT used in a naturalistic group setting is associated with unintended improvements in depression and anxiety (Am J Drug Alcohol Abuse 45:161)",
+    "authors": "Davis AK, Barsuglia JP, Lancelotta R, et al.",
+    "url": "https://doi.org/10.1080/00952990.2018.1545024",
+    "year": 2019,
+    "quality": "Retrospective survey; low"
+  },
+  {
+    "id": "ncbi-ss",
+    "title": "Serotonin Syndrome (StatPearls)",
+    "authors": "Simon LV, Keenaghan M",
+    "url": "https://www.ncbi.nlm.nih.gov/books/NBK482377/",
+    "year": 2023,
+    "quality": "Clinical reference; high"
+  },
+  {
+    "id": "nayak-lithium",
+    "title": "Classic Psychedelic Coadministration with Lithium, but Not Lamotrigine, is Associated with Seizures: An Analysis of Online Psychedelic Experience Reports (Pharmacopsychiatry)",
+    "authors": "Nayak SM, Gukasyan N, Barrett FS, et al.",
+    "url": "https://doi.org/10.1055/a-1524-2794",
+    "year": 2021,
+    "quality": "Analysis of online reports; low-moderate but consistent signal"
+  },
+  {
+    "id": "malcolm-ssri",
+    "title": "Drug interactions between psychedelics and psychiatric medications (review, e.g. Sarparast et al. 2022 Psychopharmacology 239:1945)",
+    "authors": "Sarparast A, Thomas K, Malcolm B, Stauffer CS",
+    "url": "https://doi.org/10.1007/s00213-022-06083-y",
+    "year": 2022,
+    "quality": "Systematic review; moderate"
+  },
+  {
+    "id": "dancesafe",
+    "title": "DanceSafe drug information pages (MDMA, LSD, psilocybin, ketamine, DMT)",
+    "authors": "DanceSafe",
+    "url": "https://dancesafe.org/drug-information/",
+    "year": 2024,
+    "quality": "Harm-reduction org; practical, not peer-reviewed"
+  },
+  {
+    "id": "tripsit-combos",
+    "title": "TripSit drug combinations chart",
+    "authors": "TripSit",
+    "url": "https://combo.tripsit.me/",
+    "year": 2024,
+    "quality": "Harm-reduction org; community-curated, low-moderate"
+  },
+  {
+    "id": "nhs-ketamine",
+    "title": "Ketamine / ketamine bladder (FRANK)",
+    "authors": "FRANK (UK Govt)",
+    "url": "https://www.talktofrank.com/drug/ketamine",
+    "year": 2024,
+    "quality": "Government harm-reduction; moderate-high"
+  },
+  {
+    "id": "frank-mdma",
+    "title": "MDMA (FRANK)",
+    "authors": "FRANK (UK Govt)",
+    "url": "https://www.talktofrank.com/drug/ecstasy",
+    "year": 2024,
+    "quality": "Government harm-reduction"
+  },
+  {
+    "id": "frank-salvia",
+    "title": "Salvia (FRANK)",
+    "authors": "FRANK (UK Govt)",
+    "url": "https://www.talktofrank.com/drug/salvia",
+    "year": 2024,
+    "quality": "Government harm-reduction"
+  },
+  {
+    "id": "frank-lsd",
+    "title": "LSD (FRANK)",
+    "authors": "FRANK (UK Govt)",
+    "url": "https://www.talktofrank.com/drug/lsd",
+    "year": 2024,
+    "quality": "Government harm-reduction"
+  },
+  {
+    "id": "frank-mush",
+    "title": "Magic mushrooms (FRANK)",
+    "authors": "FRANK (UK Govt)",
+    "url": "https://www.talktofrank.com/drug/magic-mushrooms",
+    "year": 2024,
+    "quality": "Government harm-reduction"
+  },
+  {
+    "id": "dea-sched",
+    "title": "DEA Drug Scheduling page (names LSD, ecstasy, peyote as Schedule I; ketamine as Schedule III)",
+    "authors": "US DEA",
+    "url": "https://www.dea.gov/drug-information/drug-scheduling",
+    "year": 2024,
+    "quality": "Regulator"
+  },
+  {
+    "id": "callaway-ayahuasca",
+    "title": "Ayahuasca Preparations and Serotonin Reuptake Inhibitors: A Potential Combination for Severe Adverse Interactions (J Psychoactive Drugs 30:367)",
+    "authors": "Callaway JC, Grob CS",
+    "url": "https://doi.org/10.1080/02791072.1998.10399712",
+    "year": 1998,
+    "quality": "Narrative review; moderate"
+  },
+  {
+    "id": "oregon-psilo",
+    "title": "Oregon Psilocybin Services",
+    "authors": "Oregon Health Authority",
+    "url": "https://www.oregon.gov/oha/ph/preventionwellness/pages/oregon-psilocybin-services.aspx",
+    "year": 2024,
+    "quality": "Regulator; high"
+  },
+  {
+    "id": "australia-tga",
+    "title": "Change to classification of psilocybin and MDMA to enable prescribing by authorised psychiatrists",
+    "authors": "Australian TGA",
+    "url": "https://www.tga.gov.au/news/media-releases/change-classification-psilocybin-and-mdma-enable-prescribing-authorised-psychiatrists",
+    "year": 2023,
+    "quality": "Regulator; high"
+  },
+  {
+    "id": "johnson-2008",
+    "title": "Human hallucinogen research: guidelines for safety (J Psychopharmacol 22:603-620)",
+    "authors": "Johnson MW, Richards WA, Griffiths RR",
+    "url": "https://doi.org/10.1177/0269881108093587",
+    "year": 2008,
+    "quality": "Expert guideline; high, widely used in trials"
+  },
+  {
+    "id": "salvia-review",
+    "title": "Salvia divinorum: review of pharmacology (kappa-opioid agonist salvinorin A) - Roth BL et al. 2002 PNAS 99:11934",
+    "authors": "Roth BL et al.",
+    "url": "https://doi.org/10.1073/pnas.182234399",
+    "year": 2002,
+    "quality": "Primary pharmacology; high"
+  },
+  {
+    "id": "mescaline-review",
+    "title": "Mescaline: The forgotten psychedelic (Neuropharmacology 2023, Vamvakopoulou IA et al.)",
+    "authors": "Vamvakopoulou IA, Narine KAD, Campbell I, Dyck JRB, Nutt DJ",
+    "url": "https://doi.org/10.1016/j.neuropharm.2022.109294",
+    "year": 2023,
+    "quality": "Narrative review; moderate"
+  },
+  {
+    "id": "hppd-review",
+    "title": "Pharmacological Treatment of Hallucinogen Persisting Perception Disorder (HPPD): A Systematic Review (Harv Rev Psychiatry)",
+    "authors": "(see DOI)",
+    "url": "https://doi.org/10.1097/hrp.0000000000000439",
+    "year": 2025,
+    "quality": "Systematic review of 31 small studies; low-moderate"
+  },
+  {
+    "id": "ecfr-1308",
+    "title": "21 CFR 1308.11 - Schedule I (hallucinogenic substances incl. psilocybin, DMT, 5-MeO-DMT, ibogaine, mescaline)",
+    "authors": "US eCFR / DEA",
+    "url": "https://www.ecfr.gov/current/title-21/chapter-II/part-1308/section-1308.11",
+    "year": 2026,
+    "quality": "Federal regulation; authoritative"
+  },
+  {
+    "id": "definium-emerge",
+    "title": "Definium Therapeutics Announces Positive Topline Results from Phase 3 Emerge Study of DT120 ODT in MDD (22 Jun 2026)",
+    "authors": "Definium Therapeutics",
+    "url": "https://ir.definiumtx.com/news-events/press-releases/detail/232/definium-therapeutics-announces-positive-topline-results-from-phase-3-emerge-study-of-dt120-orally-disintegrating-tablet-odt-in-major-depressive-disorder",
+    "year": 2026,
+    "quality": "Sponsor press release; topline, not peer-reviewed"
+  },
+  {
+    "id": "definium-voyage",
+    "title": "Definium Therapeutics Announces Positive Topline Results from Phase 3 Voyage Study of DT120 ODT in GAD (12 Aug 2026)",
+    "authors": "Definium Therapeutics",
+    "url": "https://ir.definiumtx.com/news-events/press-releases/detail/243/definium-therapeutics-announces-positive-topline-results-from-phase-3-voyage-study-of-dt120-odt-in-generalized-anxiety-disorder",
+    "year": 2026,
+    "quality": "Sponsor press release; topline"
+  },
+  {
+    "id": "maps-2026",
+    "title": "MAPS Responds to Report of Progress for MDMA-assisted therapy for PTSD with FDA (10 Aug 2026)",
+    "authors": "MAPS",
+    "url": "https://maps.org/2026/08/10/maps-responds-to-report-of-progress-for-mdma-assisted-therapy-for-ptsd-with-fda/",
+    "year": 2026,
+    "quality": "Non-profit statement responding to a press report; Resilient itself has not announced - treat resubmission as reported, not confirmed"
+  },
+  {
+    "id": "atai-bpl003",
+    "title": "atai Life Sciences and Beckley Psytech Announce Positive Topline Results from the Phase 2b Study of BPL-003 in TRD (1 Jul 2025)",
+    "authors": "AtaiBeckley",
+    "url": "https://ir.ataibeckley.com/news-releases/news-release-details/atai-life-sciences-and-beckley-psytech-announce-positive-topline",
+    "year": 2025,
+    "quality": "Sponsor press release; topline"
+  },
+  {
+    "id": "texas-sb2308",
+    "title": "Governor Abbott Signs Ibogaine Treatment Research Law At Texas Capitol (11 Jun 2025)",
+    "authors": "Office of the Texas Governor",
+    "url": "https://gov.texas.gov/news/post/governor-abbott-signs-ibogaine-treatment-research-law-at-texas-capitol",
+    "year": 2025,
+    "quality": "Government release; authoritative for the law's existence"
+  },
+  {
+    "id": "ema-spravato",
+    "title": "Spravato (esketamine) EPAR",
+    "authors": "European Medicines Agency",
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/spravato",
+    "year": 2024,
+    "quality": "Regulator; high"
+  },
+  {
+    "id": "uk-pq-psilocybin",
+    "title": "Written question UIN 85461: psilocybin scheduling (answered 5 Nov 2025)",
+    "authors": "UK Parliament / Home Office",
+    "url": "https://questions-statements.parliament.uk/written-questions/detail/2025-10-27/85461/",
+    "year": 2025,
+    "quality": "Government answer; authoritative for UK status"
+  },
+  {
+    "id": "bnf-cd",
+    "title": "Controlled drugs and drug dependence (BNF)",
+    "authors": "NICE / BNF",
+    "url": "https://bnf.nice.org.uk/medicines-guidance/controlled-drugs-and-drug-dependence/",
+    "year": 2025,
+    "quality": "Official UK prescribing reference"
+  },
+  {
+    "id": "ema-dataset",
+    "title": "EMA medicines output report (Excel of all centrally processed human/veterinary medicines), generated 22/10/2026 06:00",
+    "authors": "European Medicines Agency",
+    "url": "https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx",
+    "year": 2026,
+    "quality": "Regulator dataset; searched by Grok Bot for active substances on 22 Oct 2026"
+  },
+  {
+    "id": "papaseit-2cb",
+    "title": "Acute Pharmacological Effects of 2C-B in Humans: An Observational Study (Front Pharmacol 9:206)",
+    "authors": "Papaseit E et al.",
+    "url": "https://doi.org/10.3389/fphar.2018.00206",
+    "year": 2018,
+    "quality": "Observational, n=16 experienced users; low-moderate"
+  },
+  {
+    "id": "cole-2cb",
+    "title": "4-Bromo-2,5-dimethoxyphenethylamine (2C-B): a review of the public domain literature (Sci Justice 42:223)",
+    "authors": "Cole MD, Lea C, Oxley N",
+    "url": "https://doi.org/10.1016/S1355-0306(02)71832-7",
+    "year": 2002,
+    "quality": "Short forensic review; no abstract available; further reading only"
+  },
+  {
+    "id": "snyder-dom",
+    "title": "2,5-Dimethoxy-4-methyl-amphetamine (STP): A New Hallucinogenic Drug (Science 158:669)",
+    "authors": "Snyder SH, Faillace L, Hollister L",
+    "url": "https://doi.org/10.1126/science.158.3801.669",
+    "year": 1967,
+    "quality": "Early controlled volunteer trials; historical"
+  },
+  {
+    "id": "amanita-review",
+    "title": "Ibotenic Acid and Muscimol in Amanita muscaria: Chemistry, Sources of Variability, Analytical Determination, and Toxicological Significance (Molecules 31:3232)",
+    "authors": "(see DOI)",
+    "url": "https://doi.org/10.3390/molecules31183232",
+    "year": 2026,
+    "quality": "Narrative review; moderate"
+  },
+  {
+    "id": "fda-amanita",
+    "title": "FDA Alerts Industry and Consumers about the Use of Amanita Muscaria or its Constituents in Food (18 Dec 2024)",
+    "authors": "US FDA",
+    "url": "https://www.fda.gov/food/hfp-constituent-updates/fda-alerts-industry-and-consumers-about-use-amanita-muscaria-or-its-constituents-food",
+    "year": 2024,
+    "quality": "Regulator; high"
+  },
+  {
+    "id": "frank-n2o",
+    "title": "Nitrous oxide (FRANK)",
+    "authors": "FRANK (UK Govt)",
+    "url": "https://www.talktofrank.com/drug/nitrous-oxide",
+    "year": 2026,
+    "quality": "Government harm-reduction"
+  },
+  {
+    "id": "n2o-sr",
+    "title": "The Toxic Legacy of Recreational Nitrous Oxide Use: Systematic Review and Meta-Analysis of Multisystem Complications From Functional Vitamin B12 Deficiency (Cureus)",
+    "authors": "(see DOI)",
+    "url": "https://doi.org/10.7759/cureus.108963",
+    "year": 2026,
+    "quality": "SR of case reports/series (1,809 patients, 257 studies); low-moderate"
+  },
+  {
+    "id": "nagele-2021",
+    "title": "A phase 2 trial of inhaled nitrous oxide for treatment-resistant major depression (Sci Transl Med 13:eabe1376)",
+    "authors": "Nagele P et al.",
+    "url": "https://doi.org/10.1126/scitranslmed.abe1376",
+    "year": 2021,
+    "quality": "Small crossover RCT, n=24; moderate"
+  },
+  {
+    "id": "frank-cannabis",
+    "title": "Cannabis (FRANK)",
+    "authors": "FRANK (UK Govt)",
+    "url": "https://www.talktofrank.com/drug/cannabis",
+    "year": 2026,
+    "quality": "Government harm-reduction"
+  },
+  {
+    "id": "diforti-2019",
+    "title": "The contribution of cannabis use to variation in the incidence of psychotic disorder across Europe (EU-GEI) (Lancet Psychiatry 6:427)",
+    "authors": "Di Forti M et al.",
+    "url": "https://doi.org/10.1016/S2215-0366(19)30048-3",
+    "year": 2019,
+    "quality": "Multicentre case-control; high"
+  },
+  {
+    "id": "loeffler-mxe",
+    "title": "Methoxetamine misuse and toxicity (J Stud Alcohol Drugs 74:816)",
+    "authors": "Loeffler G, Craig C",
+    "url": "https://doi.org/10.15288/jsad.2013.74.816",
+    "year": 2013,
+    "quality": "Letter; no abstract; title-level only"
+  },
+  {
+    "id": "johnson-tobacco",
+    "title": "Pilot study of the 5-HT2AR agonist psilocybin in the treatment of tobacco addiction (J Psychopharmacol 28:983)",
+    "authors": "Johnson MW, Garcia-Romeu A, Cosimano MP, Griffiths RR",
+    "url": "https://doi.org/10.1177/0269881114548296",
+    "year": 2014,
+    "quality": "Open-label pilot n=15; low"
+  }
+]

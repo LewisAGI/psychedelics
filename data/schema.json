@@ -1,0 +1,125 @@
+{
+  "$comment": "JSON Schema for the psychedelics content pack. content.json is a ContentPack. sources.json is an array of Source. Fact.type is evidence, inference, or uncertain. The site shows evidence and inference and withholds uncertain.",
+  "$defs": {
+    "Fact": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["text", "sources", "type"],
+      "properties": {
+        "text": { "type": "string", "minLength": 1 },
+        "sources": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "type": { "enum": ["evidence", "inference", "uncertain"] }
+      }
+    },
+    "Source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "title", "authors", "url", "year", "quality"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "title": { "type": "string", "minLength": 1 },
+        "authors": { "type": "string", "minLength": 1 },
+        "url": { "type": "string", "minLength": 1 },
+        "year": { "type": "integer" },
+        "quality": { "type": "string", "minLength": 1 }
+      }
+    },
+    "ContentPack": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["pack", "version", "generated", "verified", "disclaimer", "entries", "timeline", "further_reading"],
+      "properties": {
+        "pack": { "const": "psychedelics" },
+        "version": { "type": "integer" },
+        "generated": { "type": "string" },
+        "verified": { "type": "string", "minLength": 1 },
+        "disclaimer": { "type": "string", "minLength": 1 },
+        "entries": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/Entry" }
+        },
+        "timeline": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/TimelineEvent" }
+        },
+        "further_reading": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/FurtherReading" }
+        }
+      }
+    },
+    "Entry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "name",
+        "class",
+        "historic_use",
+        "modern_clinical_use",
+        "legal_trial_status",
+        "effects_spectrum",
+        "risks",
+        "contraindications",
+        "interactions",
+        "harm_reduction",
+        "uncertainty"
+      ],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+        "name": { "type": "string", "minLength": 1 },
+        "class": { "type": "string", "minLength": 1 },
+        "historic_use": { "type": "array", "items": { "$ref": "#/$defs/Fact" } },
+        "modern_clinical_use": { "type": "array", "items": { "$ref": "#/$defs/Fact" } },
+        "legal_trial_status": { "type": "array", "items": { "$ref": "#/$defs/Fact" } },
+        "effects_spectrum": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["positive", "negative"],
+          "properties": {
+            "positive": { "type": "array", "items": { "$ref": "#/$defs/Fact" } },
+            "negative": { "type": "array", "items": { "$ref": "#/$defs/Fact" } }
+          }
+        },
+        "risks": { "type": "array", "items": { "$ref": "#/$defs/Fact" } },
+        "contraindications": { "type": "array", "items": { "$ref": "#/$defs/Fact" } },
+        "interactions": { "type": "array", "items": { "$ref": "#/$defs/Fact" } },
+        "harm_reduction": { "type": "array", "items": { "$ref": "#/$defs/Fact" } },
+        "uncertainty": {
+          "type": "string",
+          "description": "Editorial caveat for the entry. Not a sourced fact and not a Fact.type."
+        }
+      }
+    },
+    "TimelineEvent": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["date", "event", "sources"],
+      "properties": {
+        "date": { "type": "string", "minLength": 1 },
+        "event": { "type": "string", "minLength": 1 },
+        "sources": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "string", "minLength": 1 }
+        }
+      }
+    },
+    "FurtherReading": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["source", "why"],
+      "properties": {
+        "source": { "type": "string", "minLength": 1 },
+        "why": { "type": "string", "minLength": 1 }
+      }
+    }
+  },
+  "content": { "$ref": "#/$defs/ContentPack" },
+  "sources": { "type": "array", "items": { "$ref": "#/$defs/Source" } }
+}

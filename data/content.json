@@ -1,0 +1,1691 @@
+{
+  "pack": "psychedelics",
+  "version": 3,
+  "generated": "2026-10-22",
+  "disclaimer": "Educational, harm-reduction framing. No sourcing, purchasing, extraction or synthesis information. Not medical advice.",
+  "entries": [
+    {
+      "id": "psilocybin",
+      "name": "Psilocybin (\"magic mushrooms\")",
+      "historic_use": [
+        {
+          "text": "Western awareness of Mazatec mushroom ceremonies in Mexico grew after R. Gordon Wasson's 1957 Life magazine article.",
+          "sources": [
+            "wasson-1957"
+          ],
+          "type": "evidence"
+        },
+        {
+          "text": "Albert Hofmann isolated and named psilocybin and psilocin from Psilocybe mexicana in the late 1950s.",
+          "sources": [
+            "hofmann-lsd"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "modern_clinical_use": [
+        {
+          "text": "A phase 2b RCT (n=233) found a single 25 mg dose of psilocybin (COMP360) reduced depression scores vs 1 mg at week 3 in treatment-resistant depression; adverse events included headache, nausea, and suicidal ideation/behaviour in some participants.",
+          "sources": [
+            "goodwin-2022"
+          ],
+          "type": "evidence"
+        },
+        {
+          "text": "An open-label pilot (n=15 smokers) reported 80% (12/15) biologically verified 7-day abstinence at 6 months after psilocybin within a structured cessation programme; the open-label design precludes efficacy conclusions.",
+          "sources": [
+            "johnson-tobacco"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "legal_trial_status": [
+        {
+          "text": "Psilocybin is Schedule I under US federal regulation and listed under the 1971 UN Convention.",
+          "sources": [
+            "ecfr-1308",
+            "un-1971"
+          ],
+          "type": "evidence"
+        },
+        {
+          "text": "Compass Pathways' COMP360 received FDA rolling NDA review and a Commissioner's National Priority Voucher in April 2026 for treatment-resistant depression; it is not yet approved.",
+          "sources": [
+            "compass-2026"
+          ],
+          "type": "evidence"
+        },
+        {
+          "text": "Oregon runs a state-licensed psilocybin services programme.",
+          "sources": [
+            "oregon-psilo"
+          ],
+          "type": "evidence"
+        },
+        {
+          "text": "Australia permitted authorised psychiatrists to prescribe psilocybin for treatment-resistant depression from 1 July 2023.",
+          "sources": [
+            "australia-tga"
+          ],
+          "type": "evidence"
+        },
+        {
+          "text": "UK: psilocybin is in Schedule 1 of the Misuse of Drugs Regulations 2001; no psilocybin medicine has an MHRA marketing authorisation, and research proceeds under Home Office licence (government answer, Nov 2025).",
+          "sources": [
+            "uk-pq-psilocybin"
+          ],
+          "type": "evidence"
+        },
+        {
+          "text": "EU: EMA's medicines dataset (generated 22 Oct 2026) lists no centrally authorised medicine containing psilocybin; among substances in this pack only esketamine (Spravato) is listed. National (non-central) authorisations are not covered by that dataset.",
+          "sources": [
+            "ema-dataset"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "effects_spectrum": {
+        "positive": [
+          {
+            "text": "Reported positive effects in trial settings include rapid reductions in depressive symptoms.",
+            "sources": [
+              "goodwin-2022"
+            ],
+            "type": "evidence"
+          }
+        ],
+        "negative": [
+          {
+            "text": "Common acute adverse effects: headache, nausea, anxiety; challenging experiences can occur.",
+            "sources": [
+              "goodwin-2022",
+              "johnson-2008"
+            ],
+            "type": "evidence"
+          }
+        ]
+      },
+      "risks": [
+        {
+          "text": "Psychological risk in uncontrolled settings; trials screen and supervise participants.",
+          "sources": [
+            "johnson-2008"
+          ],
+          "type": "evidence"
+        },
+        {
+          "text": "Rare persisting perceptual changes (HPPD) are reported with hallucinogens.",
+          "sources": [
+            "hppd-review"
+          ],
+          "type": "evidence"
+        },
+        {
+          "text": "Misidentifying wild mushrooms risks poisoning by toxic species.",
+          "sources": [
+            "frank-mush"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "contraindications": [
+        {
+          "text": "Trials typically exclude people with personal or family history of psychosis or bipolar I disorder.",
+          "sources": [
+            "johnson-2008"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "interactions": [
+        {
+          "text": "SSRIs/SNRIs tend to blunt the subjective effects of classic serotonergic psychedelics and MDMA; combining MDMA (a serotonin releaser) with serotonergic drugs adds serotonin-syndrome risk.",
+          "sources": [
+            "malcolm-ssri",
+            "ncbi-ss"
+          ],
+          "type": "evidence"
+        },
+        {
+          "text": "Lithium co-use with classic psychedelics is associated with seizures in user reports; widely advised against.",
+          "sources": [
+            "nayak-lithium",
+            "tripsit-combos"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "harm_reduction": [
+        {
+          "text": "Set and setting, a trusted sober sitter, and avoiding mixing are standard harm-reduction advice.",
+          "sources": [
+            "johnson-2008",
+            "dancesafe"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "uncertainty": "Long-term efficacy and durability beyond trial follow-up remain uncertain; functional unblinding limits trial interpretation.",
+      "class": "Classic serotonergic psychedelic (5-HT2A agonist via psilocin)"
+    },
+    {
+      "id": "lsd",
+      "name": "LSD (lysergic acid diethylamide)",
+      "historic_use": [
+        {
+          "text": "Albert Hofmann first synthesised LSD in 1938 at Sandoz and discovered its psychoactive effects in April 1943.",
+          "sources": [
+            "hofmann-lsd"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "modern_clinical_use": [
+        {
+          "text": "Definium Therapeutics (formerly MindMed) reported that its Phase 3 Emerge trial of DT120 (lysergide) 100 \u00b5g in MDD (n=149) met its primary endpoint: an 8.1-point placebo-adjusted MADRS reduction at week 6 (topline press release, 22 Jun 2026).",
+          "sources": [
+            "definium-emerge"
+          ],
+          "type": "evidence"
+        },
+        {
+          "text": "Its Phase 3 Voyage trial in GAD (n=214) reported a 5.4-point placebo-adjusted HAM-A reduction at week 12 (topline press release, 12 Aug 2026). Neither result was peer-reviewed at the time of the release.",
+          "sources": [
+            "definium-voyage"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "legal_trial_status": [
+        {
+          "text": "LSD is Schedule I in the US and controlled under the 1971 UN Convention.",
+          "sources": [
+            "dea-sched",
+            "un-1971"
+          ],
+          "type": "evidence"
+        },
+        {
+          "text": "UK: LSD is a Schedule 1 controlled drug (no recognised medicinal use; Home Office licence generally required).",
+          "sources": [
+            "bnf-cd"
+          ],
+          "type": "evidence"
+        },
+        {
+          "text": "EU: EMA's medicines dataset (generated 22 Oct 2026) lists no centrally authorised medicine containing lysergide (LSD); among substances in this pack only esketamine (Spravato) is listed. National (non-central) authorisations are not covered by that dataset.",
+          "sources": [
+            "ema-dataset"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "effects_spectrum": {
+        "positive": [
+          {
+            "text": "Users report altered perception, emotional insight and mystical-type experiences.",
+            "sources": [
+              "frank-lsd"
+            ],
+            "type": "evidence"
+          }
+        ],
+        "negative": [
+          {
+            "text": "Anxiety, paranoia, confusion and frightening experiences ('bad trips'); effects can last up to about 12 hours.",
+            "sources": [
+              "frank-lsd"
+            ],
+            "type": "evidence"
+          }
+        ]
+      },
+      "risks": [
+        {
+          "text": "Risk of accidents during impaired judgement; HPPD reported rarely.",
+          "sources": [
+            "frank-lsd",
+            "hppd-review"
+          ],
+          "type": "evidence"
+        },
+        {
+          "text": "Substances sold as LSD may be other, more dangerous drugs (e.g. NBOMe compounds); testing is advised.",
+          "sources": [
+            "dancesafe"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "contraindications": [
+        {
+          "text": "Personal/family history of psychosis is a standard exclusion in research.",
+          "sources": [
+            "johnson-2008"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "interactions": [
+        {
+          "text": "SSRIs/SNRIs tend to blunt the subjective effects of classic serotonergic psychedelics and MDMA; combining MDMA (a serotonin releaser) with serotonergic drugs adds serotonin-syndrome risk.",
+          "sources": [
+            "malcolm-ssri",
+            "ncbi-ss"
+          ],
+          "type": "evidence"
+        },
+        {
+          "text": "Lithium co-use with classic psychedelics is associated with seizures in user reports; widely advised against.",
+          "sources": [
+            "nayak-lithium",
+            "tripsit-combos"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "harm_reduction": [
+        {
+          "text": "Start low, test substances, have a sober sitter.",
+          "sources": [
+            "dancesafe"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "uncertainty": "Phase 3 results are sponsor toplines only; not yet peer-reviewed or submitted for approval.",
+      "class": "Classic serotonergic psychedelic (ergoline)"
+    },
+    {
+      "id": "mdma",
+      "name": "MDMA (midomafetamine, 'ecstasy')",
+      "historic_use": [
+        {
+          "text": "MDMA (ecstasy) is listed by the DEA as a Schedule I drug (no currently accepted medical use in the US).",
+          "sources": [
+            "dea-sched"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "modern_clinical_use": [
+        {
+          "text": "A phase 3 RCT reported MDMA-assisted therapy reduced PTSD symptom severity vs placebo with therapy.",
+          "sources": [
+            "mitchell-2021"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "legal_trial_status": [
+        {
+          "text": "FDA issued a complete response letter on 9 Aug 2024 requesting an additional phase 3 trial.",
+          "sources": [
+            "lykos-crl"
+          ],
+          "type": "evidence"
+        },
+        {
+          "text": "Australia allows authorised psychiatrists to prescribe MDMA for PTSD since July 2023.",
+          "sources": [
+            "australia-tga"
+          ],
+          "type": "evidence"
+        },
+        {
+          "text": "MAPS stated on 10 Aug 2026 that, per a press report, Resilient Pharmaceuticals (formerly Lykos) had resubmitted the NDA without a new Phase 3 study; the sponsor had not announced it publicly.",
+          "sources": [
+            "maps-2026"
+          ],
+          "type": "uncertain"
+        },
+        {
+          "text": "UK: ecstasy-type substances are Schedule 1 controlled drugs.",
+          "sources": [
+            "bnf-cd"
+          ],
+          "type": "evidence"
+        },
+        {
+          "text": "EU: EMA's medicines dataset (generated 22 Oct 2026) lists no centrally authorised medicine containing MDMA/midomafetamine; among substances in this pack only esketamine (Spravato) is listed. National (non-central) authorisations are not covered by that dataset.",
+          "sources": [
+            "ema-dataset"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "effects_spectrum": {
+        "positive": [
+          {
+            "text": "Euphoria, increased empathy and sociability.",
+            "sources": [
+              "frank-mdma"
+            ],
+            "type": "evidence"
+          }
+        ],
+        "negative": [
+          {
+            "text": "Jaw clenching, raised heart rate and temperature; low mood in following days.",
+            "sources": [
+              "frank-mdma"
+            ],
+            "type": "evidence"
+          }
+        ]
+      },
+      "risks": [
+        {
+          "text": "Overheating and dehydration, and hyponatraemia from drinking too much water, can be fatal.",
+          "sources": [
+            "frank-mdma"
+          ],
+          "type": "evidence"
+        },
+        {
+          "text": "Serotonin syndrome risk when combined with other serotonergic drugs.",
+          "sources": [
+            "ncbi-ss"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "contraindications": [
+        {
+          "text": "Cardiovascular disease and uncontrolled hypertension are trial exclusions.",
+          "sources": [
+            "mitchell-2021"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "interactions": [
+        {
+          "text": "MAOIs + MDMA is a dangerous combination (serotonin syndrome / hypertensive crisis).",
+          "sources": [
+            "tripsit-combos",
+            "ncbi-ss"
+          ],
+          "type": "evidence"
+        },
+        {
+          "text": "SSRIs/SNRIs tend to blunt the subjective effects of classic serotonergic psychedelics and MDMA; combining MDMA (a serotonin releaser) with serotonergic drugs adds serotonin-syndrome risk.",
+          "sources": [
+            "malcolm-ssri",
+            "ncbi-ss"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "harm_reduction": [
+        {
+          "text": "Test pills, take breaks from dancing, sip roughly 500 ml water per hour if dancing (FRANK advice), avoid redosing.",
+          "sources": [
+            "frank-mdma",
+            "dancesafe"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "uncertainty": "Long-term neurotoxicity at recreational doses remains debated; FDA AdComm raised blinding and data integrity concerns.",
+      "class": "Entactogen; serotonin/noradrenaline/dopamine releaser"
+    },
+    {
+      "id": "dmt-ayahuasca",
+      "name": "DMT and ayahuasca",
+      "historic_use": [
+        {
+          "text": "Ayahuasca is an Amazonian psychoactive plant beverage containing potent MAO-inhibiting harmala alkaloids.",
+          "sources": [
+            "callaway-ayahuasca"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "modern_clinical_use": [
+        {
+          "text": "Ayahuasca's MAO-inhibiting harmala alkaloids create a risk of serotonin syndrome when combined with SSRIs; caution is advised with pharmaceutical drugs.",
+          "sources": [
+            "callaway-ayahuasca"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "legal_trial_status": [
+        {
+          "text": "DMT is Schedule I under US federal regulation.",
+          "sources": [
+            "ecfr-1308"
+          ],
+          "type": "evidence"
+        },
+        {
+          "text": "The US Supreme Court (2006) upheld the UDV church's RFRA claim allowing sacramental use of hoasca (ayahuasca) pending the case.",
+          "sources": [
+            "gonzales-udv"
+          ],
+          "type": "evidence"
+        },
+        {
+          "text": "EU: EMA's medicines dataset (generated 22 Oct 2026) lists no centrally authorised medicine containing DMT; among substances in this pack only esketamine (Spravato) is listed. National (non-central) authorisations are not covered by that dataset.",
+          "sources": [
+            "ema-dataset"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "effects_spectrum": {
+        "positive": [
+          {
+            "text": "Intense visionary experiences; reports of personal meaning.",
+            "sources": [
+              "dancesafe"
+            ],
+            "type": "evidence"
+          }
+        ],
+        "negative": [
+          {
+            "text": "Severe adverse interactions (serotonin syndrome) are possible when combined with SSRIs.",
+            "sources": [
+              "callaway-ayahuasca"
+            ],
+            "type": "evidence"
+          }
+        ]
+      },
+      "risks": [
+        {
+          "text": "Because ayahuasca contains MAOIs, it can interact dangerously with serotonergic drugs and some foods/medications.",
+          "sources": [
+            "callaway-ayahuasca",
+            "ncbi-ss"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "contraindications": [
+        {
+          "text": "People on SSRIs and other serotonergic medicines should not take ayahuasca (MAOI interaction).",
+          "sources": [
+            "callaway-ayahuasca",
+            "malcolm-ssri"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "interactions": [
+        {
+          "text": "MAOI + SSRI/SNRI/MDMA/tramadol: serotonin syndrome risk.",
+          "sources": [
+            "ncbi-ss",
+            "tripsit-combos"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "harm_reduction": [
+        {
+          "text": "Disclose medications to facilitators; vetted retreat practices and sitters reduce risk.",
+          "sources": [
+            "dancesafe"
+          ],
+          "type": "inference"
+        }
+      ],
+      "uncertainty": "Retreat safety standards vary widely; abuse in retreat settings has been reported anecdotally (not sourced here).",
+      "class": "Tryptamine psychedelic; ayahuasca = DMT plant + MAO-inhibiting Banisteriopsis caapi"
+    },
+    {
+      "id": "mescaline",
+      "name": "Mescaline (peyote, San Pedro)",
+      "historic_use": [
+        {
+          "text": "Mescaline is one of the oldest known hallucinogens, with evidence of use dating back about 5,700 years; it occurs mainly in peyote (Lophophora williamsii) and Echinopsis cacti.",
+          "sources": [
+            "mescaline-review"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "modern_clinical_use": [
+        {
+          "text": "Since the prohibition of psychoactive substances in the early 1970s, research on mescaline has been limited; it acts mainly as a 5-HT2A receptor agonist.",
+          "sources": [
+            "mescaline-review"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "legal_trial_status": [
+        {
+          "text": "Mescaline and peyote are Schedule I in the US.",
+          "sources": [
+            "ecfr-1308",
+            "dea-sched"
+          ],
+          "type": "evidence"
+        },
+        {
+          "text": "US federal law protects traditional peyote use by members of federally recognised tribes (1994 AIRFA amendments).",
+          "sources": [
+            "airfa-1994"
+          ],
+          "type": "evidence"
+        },
+        {
+          "text": "EU: EMA's medicines dataset (generated 22 Oct 2026) lists no centrally authorised medicine containing mescaline; among substances in this pack only esketamine (Spravato) is listed. National (non-central) authorisations are not covered by that dataset.",
+          "sources": [
+            "ema-dataset"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "effects_spectrum": {
+        "positive": [
+          {
+            "text": "Reported effects include euphoria, hallucinations and improvements in well-being in naturalistic or religious settings.",
+            "sources": [
+              "mescaline-review"
+            ],
+            "type": "evidence"
+          }
+        ],
+        "negative": [
+          {
+            "text": "Psychotomimetic effects are reported; most intoxications are described as mild and easily treatable.",
+            "sources": [
+              "mescaline-review"
+            ],
+            "type": "evidence"
+          }
+        ]
+      },
+      "risks": [
+        {
+          "text": "Psychotomimetic (psychosis-like) effects can occur.",
+          "sources": [
+            "mescaline-review"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "contraindications": [
+        {
+          "text": "Standard psychedelic exclusions apply by inference (psychosis risk).",
+          "sources": [
+            "johnson-2008"
+          ],
+          "type": "inference"
+        }
+      ],
+      "interactions": [
+        {
+          "text": "Lithium co-use with classic psychedelics is associated with seizures in user reports; widely advised against.",
+          "sources": [
+            "nayak-lithium",
+            "tripsit-combos"
+          ],
+          "type": "evidence"
+        },
+        {
+          "text": "SSRIs/SNRIs tend to blunt the subjective effects of classic serotonergic psychedelics and MDMA; combining MDMA (a serotonin releaser) with serotonergic drugs adds serotonin-syndrome risk.",
+          "sources": [
+            "malcolm-ssri",
+            "ncbi-ss"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "harm_reduction": [
+        {
+          "text": "General psychedelic safety guidance (screening, supervision, setting) applies by extension.",
+          "sources": [
+            "johnson-2008"
+          ],
+          "type": "inference"
+        }
+      ],
+      "uncertainty": "Little modern clinical evidence.",
+      "class": "Phenethylamine psychedelic"
+    },
+    {
+      "id": "ketamine",
+      "name": "Ketamine / esketamine",
+      "historic_use": [
+        {
+          "text": "Ketamine is approved as an anaesthetic; psychiatric use of racemic ketamine is off-label.",
+          "sources": [
+            "fda-ketamine-compounded"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "modern_clinical_use": [
+        {
+          "text": "FDA approved esketamine nasal spray (Spravato) on 5 Mar 2019 for treatment-resistant depression in adults, under a REMS.",
+          "sources": [
+            "fda-spravato"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "legal_trial_status": [
+        {
+          "text": "FDA warned in 2023 about compounded ketamine products, including at-home oral formulations.",
+          "sources": [
+            "fda-ketamine-compounded"
+          ],
+          "type": "evidence"
+        },
+        {
+          "text": "EU: Spravato received an EU-wide marketing authorisation on 18 Dec 2019 for treatment-resistant MDD (with an SSRI/SNRI), available only on special prescription under direct supervision.",
+          "sources": [
+            "ema-spravato"
+          ],
+          "type": "evidence"
+        },
+        {
+          "text": "UK: ketamine is a Schedule 2 controlled drug.",
+          "sources": [
+            "bnf-cd"
+          ],
+          "type": "evidence"
+        },
+        {
+          "text": "US: ketamine is Schedule III.",
+          "sources": [
+            "dea-sched"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "effects_spectrum": {
+        "positive": [
+          {
+            "text": "Rapid antidepressant effect (esketamine).",
+            "sources": [
+              "fda-spravato"
+            ],
+            "type": "evidence"
+          }
+        ],
+        "negative": [
+          {
+            "text": "Dissociation, sedation, raised blood pressure.",
+            "sources": [
+              "fda-spravato"
+            ],
+            "type": "evidence"
+          }
+        ]
+      },
+      "risks": [
+        {
+          "text": "Regular heavy use can cause serious bladder damage ('ketamine bladder'); dependence possible.",
+          "sources": [
+            "nhs-ketamine"
+          ],
+          "type": "evidence"
+        },
+        {
+          "text": "Combining with alcohol or other depressants raises risk of unconsciousness and breathing problems.",
+          "sources": [
+            "nhs-ketamine"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "contraindications": [
+        {
+          "text": "EU label: do not give where a rise in blood pressure or intracranial pressure poses a serious risk; administration and observation take place in a clinical setting.",
+          "sources": [
+            "ema-spravato"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "interactions": [
+        {
+          "text": "Depressants (alcohol, benzodiazepines, opioids): additive sedation and respiratory risk.",
+          "sources": [
+            "nhs-ketamine",
+            "tripsit-combos"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "harm_reduction": [
+        {
+          "text": "Don't use alone or near water/roads; avoid mixing with depressants.",
+          "sources": [
+            "nhs-ketamine"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "uncertainty": "Long-term safety of frequent at-home dosing is not established.",
+      "class": "Dissociative anaesthetic (NMDA antagonist)"
+    },
+    {
+      "id": "ibogaine",
+      "name": "Ibogaine (iboga)",
+      "historic_use": [
+        {
+          "text": "Ibogaine is a plant indole alkaloid; although unlicensed and despite safety concerns, it is used as an anti-addiction treatment in dozens of alternative-medicine clinics worldwide.",
+          "sources": [
+            "schifano-ibogaine"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "modern_clinical_use": [
+        {
+          "text": "A New Zealand observational study (14 participants; 8 completed all interviews) reported reduced addiction-severity drug-use scores 12 months after a single ibogaine treatment; an open-label study of magnesium-ibogaine in 30 veterans with TBI reported improvements in disability and PTSD/depression scores.",
+          "sources": [
+            "noller-2018",
+            "cherian-2024"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "legal_trial_status": [
+        {
+          "text": "Ibogaine is Schedule I under US federal regulation.",
+          "sources": [
+            "ecfr-1308"
+          ],
+          "type": "evidence"
+        },
+        {
+          "text": "Texas SB 2308, signed 11 Jun 2025, authorises state matching funds for an FDA ibogaine drug trial run by a public university with a drug company and hospital.",
+          "sources": [
+            "texas-sb2308"
+          ],
+          "type": "evidence"
+        },
+        {
+          "text": "EU: EMA's medicines dataset (generated 22 Oct 2026) lists no centrally authorised medicine containing ibogaine; among substances in this pack only esketamine (Spravato) is listed. National (non-central) authorisations are not covered by that dataset.",
+          "sources": [
+            "ema-dataset"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "effects_spectrum": {
+        "positive": [
+          {
+            "text": "Users and observational studies report reduced opioid withdrawal and cravings.",
+            "sources": [
+              "noller-2018"
+            ],
+            "type": "evidence"
+          }
+        ],
+        "negative": [
+          {
+            "text": "Ataxia, nausea, prolonged intense experience.",
+            "sources": [
+              "schifano-ibogaine"
+            ],
+            "type": "evidence"
+          }
+        ]
+      },
+      "risks": [
+        {
+          "text": "Life-threatening complications and sudden deaths temporally associated with ibogaine have been reported, hypothesised to stem from cardiac arrhythmias.",
+          "sources": [
+            "schifano-ibogaine"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "contraindications": [
+        {
+          "text": "Cardiac conditions and QT-prolonging drugs; studies require cardiac screening.",
+          "sources": [
+            "schifano-ibogaine",
+            "cherian-2024"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "interactions": [
+        {
+          "text": "Combining with opioids or other QT-prolonging drugs increases risk.",
+          "sources": [
+            "schifano-ibogaine"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "harm_reduction": [
+        {
+          "text": "Medical supervision with cardiac monitoring is strongly advised.",
+          "sources": [
+            "schifano-ibogaine",
+            "cherian-2024"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "uncertainty": "No completed RCTs; evidence is observational.",
+      "class": "Indole alkaloid; complex pharmacology"
+    },
+    {
+      "id": "5-meo-dmt",
+      "name": "5-MeO-DMT",
+      "historic_use": [
+        {
+          "text": "A web survey of people using 5-MeO-DMT in structured group settings found most of those with prior depression or anxiety diagnoses reported improvement (self-selected, retrospective).",
+          "sources": [
+            "davis-5meo"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "modern_clinical_use": [
+        {
+          "text": "BPL-003 (intranasal 5-MeO-DMT benzoate) met its primary endpoint in a Phase 2b TRD trial (n=193): 12 mg reduced MADRS by 11.1 points vs 5.8 for a 0.3 mg comparator at day 29; 8 mg was selected for Phase 3 (sponsor topline, 1 Jul 2025).",
+          "sources": [
+            "atai-bpl003"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "legal_trial_status": [
+        {
+          "text": "5-MeO-DMT is Schedule I under US federal regulation.",
+          "sources": [
+            "ecfr-1308"
+          ],
+          "type": "evidence"
+        },
+        {
+          "text": "EU: EMA's medicines dataset (generated 22 Oct 2026) lists no centrally authorised medicine containing 5-MeO-DMT (mebufotenin); among substances in this pack only esketamine (Spravato) is listed. National (non-central) authorisations are not covered by that dataset.",
+          "sources": [
+            "ema-dataset"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "effects_spectrum": {
+        "positive": [
+          {
+            "text": "Mystical-type acute effects were measured and associated with reported improvements.",
+            "sources": [
+              "davis-5meo"
+            ],
+            "type": "evidence"
+          }
+        ],
+        "negative": [
+          {
+            "text": "Challenging acute experiences were also measured in the survey.",
+            "sources": [
+              "davis-5meo"
+            ],
+            "type": "evidence"
+          }
+        ]
+      },
+      "risks": [
+        {
+          "text": "MAOI combinations are particularly dangerous.",
+          "sources": [
+            "tripsit-combos",
+            "ncbi-ss"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "contraindications": [
+        {
+          "text": "Psychosis history (inference from general psychedelic guidance).",
+          "sources": [
+            "johnson-2008"
+          ],
+          "type": "inference"
+        }
+      ],
+      "interactions": [
+        {
+          "text": "MAOIs (incl. ayahuasca): dangerous.",
+          "sources": [
+            "tripsit-combos"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "harm_reduction": [
+        {
+          "text": "Sitter required; lying down; never combine with MAOIs.",
+          "sources": [
+            "tripsit-combos"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "uncertainty": "Very limited controlled evidence.",
+      "class": "Tryptamine psychedelic"
+    },
+    {
+      "id": "salvia",
+      "name": "Salvia divinorum",
+      "historic_use": [
+        {
+          "text": "Used traditionally by the Mazatec of Oaxaca, Mexico.",
+          "sources": [
+            "frank-salvia"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "modern_clinical_use": [
+        {
+          "text": "Salvinorin A is a potent selective kappa-opioid agonist; no approved medical use.",
+          "sources": [
+            "salvia-review"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "legal_trial_status": [
+        {
+          "text": "Controlled under the UK Psychoactive Substances Act 2016; status varies by US state.",
+          "sources": [
+            "frank-salvia"
+          ],
+          "type": "evidence"
+        },
+        {
+          "text": "EU: EMA's medicines dataset (generated 22 Oct 2026) lists no centrally authorised medicine containing salvinorin A; among substances in this pack only esketamine (Spravato) is listed. National (non-central) authorisations are not covered by that dataset.",
+          "sources": [
+            "ema-dataset"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "effects_spectrum": {
+        "positive": [
+          {
+            "text": "Short intense dissociative/hallucinogenic effects.",
+            "sources": [
+              "frank-salvia"
+            ],
+            "type": "evidence"
+          }
+        ],
+        "negative": [
+          {
+            "text": "Confusion, loss of coordination, frightening experiences.",
+            "sources": [
+              "frank-salvia"
+            ],
+            "type": "evidence"
+          }
+        ]
+      },
+      "risks": [
+        {
+          "text": "Risk of injury while disoriented.",
+          "sources": [
+            "frank-salvia"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "contraindications": [
+        {
+          "text": "Psychosis history (inference).",
+          "sources": [
+            "johnson-2008"
+          ],
+          "type": "inference"
+        }
+      ],
+      "interactions": [
+        {
+          "text": "Interaction data are limited.",
+          "sources": [
+            "tripsit-combos"
+          ],
+          "type": "uncertain"
+        }
+      ],
+      "harm_reduction": [
+        {
+          "text": "Sitter present, safe seated environment.",
+          "sources": [
+            "frank-salvia"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "uncertainty": "Sparse human research.",
+      "class": "Kappa-opioid receptor agonist (salvinorin A); atypical, non-serotonergic"
+    },
+    {
+      "id": "2c-b",
+      "name": "2C-B",
+      "class": "Phenethylamine psychedelic (5-HT2A partial agonist)",
+      "historic_use": [],
+      "modern_clinical_use": [
+        {
+          "text": "No approved or late-stage clinical use; studied in an observational study of 16 experienced users.",
+          "sources": [
+            "papaseit-2cb"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "legal_trial_status": [
+        {
+          "text": "EU: EMA's medicines dataset (generated 22 Oct 2026) lists no centrally authorised medicine containing 2C-B; among substances in this pack only esketamine (Spravato) is listed. National (non-central) authorisations are not covered by that dataset.",
+          "sources": [
+            "ema-dataset"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "effects_spectrum": {
+        "positive": [
+          {
+            "text": "Raised euphoria-related scores (high, liking, stimulated) and perceptual changes (colours, shapes, lights).",
+            "sources": [
+              "papaseit-2cb"
+            ],
+            "type": "evidence"
+          }
+        ],
+        "negative": [
+          {
+            "text": "Increased blood pressure and heart rate; mild hallucinations in 5 of 16 participants.",
+            "sources": [
+              "papaseit-2cb"
+            ],
+            "type": "evidence"
+          }
+        ]
+      },
+      "risks": [
+        {
+          "text": "Cardiovascular stimulation (raised blood pressure and heart rate).",
+          "sources": [
+            "papaseit-2cb"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "contraindications": [
+        {
+          "text": "Cardiovascular disease would logically raise risk given measured BP/HR increases.",
+          "sources": [
+            "papaseit-2cb"
+          ],
+          "type": "inference"
+        }
+      ],
+      "interactions": [
+        {
+          "text": "Combining with other drugs is unpredictable; harm-reduction charts advise caution with stimulants and serotonergic drugs.",
+          "sources": [
+            "tripsit-combos"
+          ],
+          "type": "uncertain"
+        }
+      ],
+      "harm_reduction": [
+        {
+          "text": "Drug-checking and a sober sitter are standard harm-reduction advice.",
+          "sources": [
+            "dancesafe"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "uncertainty": "Human data are limited to small observational studies."
+    },
+    {
+      "id": "dom",
+      "name": "DOM (STP) and DOx class",
+      "class": "Substituted amphetamine psychedelic",
+      "historic_use": [
+        {
+          "text": "Identified as the active chemical in the street drug 'STP'; tested in volunteers in 1967.",
+          "sources": [
+            "snyder-dom"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "modern_clinical_use": [],
+      "legal_trial_status": [
+        {
+          "text": "EU: EMA's medicines dataset (generated 22 Oct 2026) lists no centrally authorised medicine containing DOM; among substances in this pack only esketamine (Spravato) is listed. National (non-central) authorisations are not covered by that dataset.",
+          "sources": [
+            "ema-dataset"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "effects_spectrum": {
+        "positive": [
+          {
+            "text": "Low doses produced mild euphoria in volunteers.",
+            "sources": [
+              "snyder-dom"
+            ],
+            "type": "evidence"
+          }
+        ],
+        "negative": [
+          {
+            "text": "Higher doses caused pronounced hallucinogenic effects lasting about 8 hours.",
+            "sources": [
+              "snyder-dom"
+            ],
+            "type": "evidence"
+          }
+        ]
+      },
+      "risks": [
+        {
+          "text": "Long duration increases the time spent impaired; the DOx class is far more potent than mescaline, which makes accidental overdose easier.",
+          "sources": [
+            "snyder-dom"
+          ],
+          "type": "inference"
+        }
+      ],
+      "contraindications": [],
+      "interactions": [
+        {
+          "text": "In the 1967 trials, chlorpromazine did not accentuate its psychological effects.",
+          "sources": [
+            "snyder-dom"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "harm_reduction": [
+        {
+          "text": "Drug-checking advised because potent substances are mis-sold.",
+          "sources": [
+            "dancesafe"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "uncertainty": "Almost no modern human research."
+    },
+    {
+      "id": "amanita-muscaria",
+      "name": "Amanita muscaria (fly agaric)",
+      "class": "Mushroom; GABA-A agonist (muscimol) and glutamate agonist (ibotenic acid) \u2014 not a classic psychedelic",
+      "historic_use": [],
+      "modern_clinical_use": [
+        {
+          "text": "No approved medical use.",
+          "sources": [
+            "fda-amanita"
+          ],
+          "type": "inference"
+        }
+      ],
+      "legal_trial_status": [
+        {
+          "text": "FDA (18 Dec 2024): A. muscaria, its extracts, muscimol, ibotenic acid and muscarine are not authorised in conventional food, do not meet the GRAS standard, and are unapproved food additives. FDA cited serious adverse event reports and advises avoiding such foods.",
+          "sources": [
+            "fda-amanita"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "effects_spectrum": {
+        "positive": [],
+        "negative": [
+          {
+            "text": "Ibotenic acid acts at NMDA/metabotropic glutamate receptors and muscimol is a potent GABAergic agonist; the review discusses their toxicological significance.",
+            "sources": [
+              "amanita-review"
+            ],
+            "type": "evidence"
+          }
+        ]
+      },
+      "risks": [
+        {
+          "text": "Content of active compounds varies by species, tissue, maturity and processing (drying/heating), making effects unpredictable.",
+          "sources": [
+            "amanita-review"
+          ],
+          "type": "evidence"
+        },
+        {
+          "text": "Mushroom misidentification risk applies to wild-picked fungi.",
+          "sources": [
+            "frank-mush"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "contraindications": [],
+      "interactions": [],
+      "harm_reduction": [
+        {
+          "text": "FDA recommends people avoid foods containing these ingredients.",
+          "sources": [
+            "fda-amanita"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "uncertainty": "Clinical poisoning literature not abstract-verified in this pass."
+    },
+    {
+      "id": "nitrous-oxide",
+      "name": "Nitrous oxide",
+      "class": "Dissociative anaesthetic gas (NMDA antagonist)",
+      "historic_use": [],
+      "modern_clinical_use": [
+        {
+          "text": "A phase 2 crossover trial (n=24, severe TRD) found 25% inhaled nitrous oxide had comparable antidepressant efficacy to 50% with markedly fewer adverse effects.",
+          "sources": [
+            "nagele-2021"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "legal_trial_status": [
+        {
+          "text": "UK: nitrous oxide is a Class C drug; possession and supply are illegal (FRANK).",
+          "sources": [
+            "frank-n2o"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "effects_spectrum": {
+        "positive": [
+          {
+            "text": "Antidepressant signal in small trials.",
+            "sources": [
+              "nagele-2021"
+            ],
+            "type": "evidence"
+          }
+        ],
+        "negative": [
+          {
+            "text": "Dizziness, which may lead to careless or dangerous actions.",
+            "sources": [
+              "frank-n2o"
+            ],
+            "type": "evidence"
+          }
+        ]
+      },
+      "risks": [
+        {
+          "text": "Inhaling directly from a canister or in an enclosed space is very dangerous; too much risks unconsciousness and suffocation from lack of oxygen, and people have died this way.",
+          "sources": [
+            "frank-n2o"
+          ],
+          "type": "evidence"
+        },
+        {
+          "text": "Heavy regular use can cause vitamin B12 deficiency leading to nerve damage (tingling, numbness, difficulty walking, even paralysis), which may be lasting.",
+          "sources": [
+            "frank-n2o"
+          ],
+          "type": "evidence"
+        },
+        {
+          "text": "A systematic review of 1,809 patients found neurological symptoms (paraesthesia, gait disturbance) most frequent; MMA/homocysteine were raised in 68\u201385%, often with normal serum B12.",
+          "sources": [
+            "n2o-sr"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "contraindications": [],
+      "interactions": [],
+      "harm_reduction": [
+        {
+          "text": "Never use a plastic bag over the head or inhale directly from a canister; avoid enclosed spaces.",
+          "sources": [
+            "frank-n2o"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "uncertainty": "Clinical antidepressant use remains investigational."
+    },
+    {
+      "id": "cannabis",
+      "name": "Cannabis (incl. as a psychedelic adjunct)",
+      "class": "Cannabinoid (THC: CB1 agonist)",
+      "historic_use": [],
+      "modern_clinical_use": [],
+      "legal_trial_status": [
+        {
+          "text": "UK: cannabis is Class B; prescribed medical cannabis products are the exception.",
+          "sources": [
+            "frank-cannabis"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "effects_spectrum": {
+        "positive": [
+          {
+            "text": "Users describe relaxation, giggliness and altered perspective.",
+            "sources": [
+              "frank-cannabis"
+            ],
+            "type": "evidence"
+          }
+        ],
+        "negative": [
+          {
+            "text": "Can cause paranoia, confusion and anxiety; THC drives hallucinogenic effects.",
+            "sources": [
+              "frank-cannabis"
+            ],
+            "type": "evidence"
+          }
+        ]
+      },
+      "risks": [
+        {
+          "text": "Daily cannabis use was associated with about 3.2-fold odds of psychotic disorder, rising to nearly five-fold for daily high-potency (\u226510% THC) use (EU-GEI case-control).",
+          "sources": [
+            "diforti-2019"
+          ],
+          "type": "evidence"
+        },
+        {
+          "text": "Driving when high can double the chance of a serious or fatal crash.",
+          "sources": [
+            "frank-cannabis"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "contraindications": [
+        {
+          "text": "Personal/family psychosis history is a standard exclusion in psychedelic research; cannabis-psychosis association adds concern when combining.",
+          "sources": [
+            "johnson-2008",
+            "diforti-2019"
+          ],
+          "type": "inference"
+        }
+      ],
+      "interactions": [
+        {
+          "text": "Combining cannabis with psychedelics is reported to intensify effects unpredictably; harm-reduction charts flag caution.",
+          "sources": [
+            "tripsit-combos"
+          ],
+          "type": "uncertain"
+        }
+      ],
+      "harm_reduction": [
+        {
+          "text": "Experience depends on mood, setting, THC/CBD content and amount; uncomfortable settings raise paranoia risk.",
+          "sources": [
+            "frank-cannabis"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "uncertainty": "Evidence on cannabis specifically as a psychedelic adjunct is anecdotal; no controlled studies were located."
+    },
+    {
+      "id": "methoxetamine",
+      "name": "Methoxetamine (MXE) and other ketamine analogues",
+      "class": "Arylcyclohexylamine dissociative",
+      "historic_use": [],
+      "modern_clinical_use": [],
+      "legal_trial_status": [
+        {
+          "text": "EU: EMA's medicines dataset (generated 22 Oct 2026) lists no centrally authorised medicine containing methoxetamine; among substances in this pack only esketamine (Spravato) is listed. National (non-central) authorisations are not covered by that dataset.",
+          "sources": [
+            "ema-dataset"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "effects_spectrum": {
+        "positive": [],
+        "negative": []
+      },
+      "risks": [
+        {
+          "text": "Published reports describe misuse and toxicity (title-level verification only; no abstract).",
+          "sources": [
+            "loeffler-mxe"
+          ],
+          "type": "uncertain"
+        }
+      ],
+      "contraindications": [],
+      "interactions": [],
+      "harm_reduction": [
+        {
+          "text": "Ketamine harm-reduction guidance (avoid depressants, don't use alone) is a reasonable baseline for analogues.",
+          "sources": [
+            "nhs-ketamine"
+          ],
+          "type": "inference"
+        }
+      ],
+      "uncertainty": "Very sparse literature; not abstract-verified. Treat this entry as a stub."
+    }
+  ],
+  "verified": "2026-10-22",
+  "timeline": [
+    {
+      "date": "1938/1943",
+      "event": "Hofmann synthesises LSD (1938) and discovers its effects (1943).",
+      "sources": [
+        "hofmann-lsd"
+      ]
+    },
+    {
+      "date": "1957-05-13",
+      "event": "Wasson's 'Seeking the Magic Mushroom' published in Life.",
+      "sources": [
+        "wasson-1957"
+      ]
+    },
+    {
+      "date": "1967",
+      "event": "Snyder et al. report DOM ('STP') effects in volunteers (Science).",
+      "sources": [
+        "snyder-dom"
+      ]
+    },
+    {
+      "date": "1971",
+      "event": "UN Convention on Psychotropic Substances.",
+      "sources": [
+        "un-1971"
+      ]
+    },
+    {
+      "date": "1994",
+      "event": "US AIRFA amendments protect traditional Native American peyote use.",
+      "sources": [
+        "airfa-1994"
+      ]
+    },
+    {
+      "date": "2006",
+      "event": "US Supreme Court rules in Gonzales v. O Centro (UDV hoasca).",
+      "sources": [
+        "gonzales-udv"
+      ]
+    },
+    {
+      "date": "2008",
+      "event": "Johnson, Richards & Griffiths publish hallucinogen research safety guidelines.",
+      "sources": [
+        "johnson-2008"
+      ]
+    },
+    {
+      "date": "2014",
+      "event": "Psilocybin tobacco-cessation open-label pilot published.",
+      "sources": [
+        "johnson-tobacco"
+      ]
+    },
+    {
+      "date": "2019-03-05",
+      "event": "FDA approves esketamine (Spravato) for TRD.",
+      "sources": [
+        "fda-spravato"
+      ]
+    },
+    {
+      "date": "2019-12-18",
+      "event": "EU marketing authorisation for Spravato.",
+      "sources": [
+        "ema-spravato"
+      ]
+    },
+    {
+      "date": "2021",
+      "event": "Phase 3 MDMA-assisted therapy RCT (Nat Med); nitrous oxide phase 2 TRD trial (Sci Transl Med).",
+      "sources": [
+        "mitchell-2021",
+        "nagele-2021"
+      ]
+    },
+    {
+      "date": "2022",
+      "event": "Phase 2b psilocybin TRD RCT published (NEJM).",
+      "sources": [
+        "goodwin-2022"
+      ]
+    },
+    {
+      "date": "2023-07-01",
+      "event": "Australia permits authorised psychiatrists to prescribe psilocybin (TRD) and MDMA (PTSD).",
+      "sources": [
+        "australia-tga"
+      ]
+    },
+    {
+      "date": "2024-08-09",
+      "event": "FDA complete response letter for midomafetamine (MDMA) for PTSD.",
+      "sources": [
+        "lykos-crl"
+      ]
+    },
+    {
+      "date": "2024-12-18",
+      "event": "FDA declares Amanita muscaria and constituents unauthorised in food.",
+      "sources": [
+        "fda-amanita"
+      ]
+    },
+    {
+      "date": "2025-06-11",
+      "event": "Texas SB 2308 signed (ibogaine trial matching funds).",
+      "sources": [
+        "texas-sb2308"
+      ]
+    },
+    {
+      "date": "2025-07-01",
+      "event": "BPL-003 (5-MeO-DMT) phase 2b topline.",
+      "sources": [
+        "atai-bpl003"
+      ]
+    },
+    {
+      "date": "2025-11-05",
+      "event": "UK government answer: psilocybin stays Schedule 1; no MHRA authorisation.",
+      "sources": [
+        "uk-pq-psilocybin"
+      ]
+    },
+    {
+      "date": "2026-04-24",
+      "event": "FDA rolling NDA review and priority voucher for COMP360 psilocybin.",
+      "sources": [
+        "compass-2026"
+      ]
+    },
+    {
+      "date": "2026-06-22 / 2026-08-12",
+      "event": "DT120 (LSD) phase 3 Emerge (MDD) and Voyage (GAD) toplines.",
+      "sources": [
+        "definium-emerge",
+        "definium-voyage"
+      ]
+    },
+    {
+      "date": "2026-08-10",
+      "event": "MAPS statement on reported MDMA NDA resubmission.",
+      "sources": [
+        "maps-2026"
+      ]
+    }
+  ],
+  "further_reading": [
+    {
+      "source": "johnson-2008",
+      "why": "Standard safety framework for psychedelic sessions"
+    },
+    {
+      "source": "malcolm-ssri",
+      "why": "Systematic review of psychiatric-drug interactions with MDMA/psilocybin"
+    },
+    {
+      "source": "goodwin-2022",
+      "why": "Largest published psilocybin TRD RCT"
+    },
+    {
+      "source": "mitchell-2021",
+      "why": "Phase 3 MDMA PTSD trial"
+    },
+    {
+      "source": "mescaline-review",
+      "why": "Mescaline pharmacology overview"
+    },
+    {
+      "source": "schifano-ibogaine",
+      "why": "Ibogaine cardiac risk"
+    },
+    {
+      "source": "hppd-review",
+      "why": "HPPD treatment evidence"
+    },
+    {
+      "source": "n2o-sr",
+      "why": "Nitrous oxide B12 complications"
+    },
+    {
+      "source": "diforti-2019",
+      "why": "Cannabis potency and psychosis"
+    },
+    {
+      "source": "hofmann-lsd",
+      "why": "Primary history of LSD"
+    },
+    {
+      "source": "frank-n2o",
+      "why": "Plain-language UK harm reduction"
+    },
+    {
+      "source": "cole-2cb",
+      "why": "Forensic literature review of 2C-B (no abstract)"
+    }
+  ]
+}
