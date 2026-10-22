@@ -16,9 +16,10 @@ describe('browse', () => {
     expect(browse(pack.entries, 'no-such-substance', 'all')).toEqual([]);
   });
 
-  it('keeps uncertain facts searchable', () => {
-    expect(matchesQuery(entry('mdma'), 'resubmitted the NDA')).toBe(true);
-    expect(matchesQuery(entry('salvia'), 'Interaction data are limited')).toBe(true);
+  it('hides uncertain facts from search', () => {
+    expect(matchesQuery(entry('mdma'), 'resubmitted the NDA')).toBe(false);
+    expect(matchesQuery(entry('salvia'), 'Interaction data are limited')).toBe(false);
+    expect(matchesQuery(entry('mdma'), 'serotonin syndrome')).toBe(true);
   });
 });
 

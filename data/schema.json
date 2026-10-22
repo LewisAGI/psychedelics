@@ -1,5 +1,5 @@
 {
-  "$comment": "JSON Schema for the psychedelics content pack. content.json is a ContentPack. sources.json is an array of Source. Fact.type is evidence, inference, or uncertain, and every type is shown.",
+  "$comment": "JSON Schema for the psychedelics content pack. content.json is a ContentPack. sources.json is an array of Source. Fact.type is evidence, inference, or uncertain. The site shows evidence and inference and withholds uncertain.",
   "$defs": {
     "Fact": {
       "type": "object",

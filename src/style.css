@@ -267,6 +267,7 @@ h2 {
   backdrop-filter: blur(14px);
   text-decoration: none;
   flex: none;
+  touch-action: manipulation;
 }
 
 .topbar .icon-button {
@@ -296,6 +297,10 @@ h2 {
   top: calc(100% + 8px);
   right: 0;
   min-width: 180px;
+  max-width: calc(100vw - 24px);
+  max-height: min(70vh, 420px);
+  overflow: auto;
+  overscroll-behavior: contain;
   background: var(--glass);
   color: var(--ink);
   border: 1px solid var(--glass-line);
@@ -341,6 +346,7 @@ h2 {
   color: inherit;
   cursor: pointer;
   font: 600 14px/1.3 system-ui, sans-serif;
+  text-decoration: none;
 }
 
 .menu-option[aria-pressed="true"] { background: rgba(255, 255, 255, 0.12); }
@@ -504,3 +510,104 @@ h2 {
 
 .popup-place { margin: 2px 0 8px; color: var(--muted); font-size: 13px; }
 .popup-summary { margin: 0; }
+.popup-summary a { color: inherit; }
+
+.page-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.page-head h1 { margin: 8px 0; }
+
+.page-tools {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}
+
+.sheet-wide { width: min(1080px, calc(100% - 32px)); }
+
+.compare-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 28px;
+}
+
+.entry-title {
+  margin: 18px 0 6px;
+  font: 600 26px/1.25 "Iowan Old Style", Palatino, "Palatino Linotype", Georgia, serif;
+  letter-spacing: 0;
+  text-transform: none;
+  color: var(--ink);
+  text-decoration: none;
+}
+
+a.crosslink {
+  color: inherit;
+  text-underline-offset: 0.18em;
+}
+
+.glossary,
+.hit-list {
+  list-style: none;
+  margin: 8px 0 0;
+  padding: 0;
+}
+
+.glossary li {
+  padding: 12px 0 8px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.cited-by {
+  margin: 8px 0 4px;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+#search-popout { width: min(360px, calc(100vw - 32px)); }
+#search-popout input { width: 100%; }
+
+@media (min-width: 800px) {
+  .compare-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+    align-items: start;
+  }
+}
+
+@media (max-width: 899px) {
+  .tools {
+    flex: 1 0 100%;
+    margin-left: 0;
+    justify-content: flex-start;
+  }
+  .topbar .popout {
+    position: fixed;
+    left: 12px;
+    right: 12px;
+    width: auto;
+    min-width: 0;
+    max-width: none;
+  }
+}
+
+@media (max-width: 700px) {
+  h1 { font-size: 30px; }
+  .sheet,
+  .sheet-wide { width: min(760px, calc(100% - 20px)); }
+  .page-head { align-items: flex-start; }
+}
+
+@media print {
+  html, body, #root { height: auto; background: #fff; color: #12161c; }
+  .topbar, .page-tools, .icon-button, .popout, .zoom, .fact-meta { display: none !important; }
+  .sheet, .sheet-wide { width: auto; margin: 0; }
+  .notice-foot { color: #333; }
+  .fact, .glossary li, .timeline li, .reading li { break-inside: avoid; }
+  a.crosslink { color: #12161c; }
+}

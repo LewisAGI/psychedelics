@@ -3,6 +3,7 @@ import { sourceById } from '../content';
 import type { Fact, FactType } from '../types';
 import { IconSources } from '../icons';
 import { IconButton } from './IconButton';
+import { LinkedText } from './LinkedText';
 
 const TYPE_LABEL: Record<FactType, string> = {
   evidence: 'Evidence',
@@ -10,14 +11,24 @@ const TYPE_LABEL: Record<FactType, string> = {
   uncertain: 'Uncertain',
 };
 
-export function FactView({ fact, citeId, showType = true }: { fact: Fact; citeId?: string; showType?: boolean }) {
+export function FactView({
+  fact,
+  citeId,
+  showType = true,
+  exceptId,
+}: {
+  fact: Fact;
+  citeId?: string;
+  showType?: boolean;
+  exceptId?: string;
+}) {
   const reactId = useId();
   const id = citeId ?? reactId;
   const [open, setOpen] = useState(false);
-  const uncertain = fact.type === 'uncertain';
+  const hidden = fact.type === 'uncertain';
 
   useEffect(() => {
-    if (!open) return;
+    if (!open || hidden) return;
     const onDown = (event: PointerEvent) => {
       const element = event.target instanceof Element ? event.target : null;
       if (!element?.closest(`[data-fact="${id}"]`)) setOpen(false);
@@ -31,14 +42,17 @@ export function FactView({ fact, citeId, showType = true }: { fact: Fact; citeId
       document.removeEventListener('pointerdown', onDown);
       document.removeEventListener('keydown', onKey);
     };
-  }, [open, id]);
+  }, [open, id, hidden]);
+
+  if (hidden) return null;
 
   return (
-    <article className={uncertain ? 'fact is-uncertain' : 'fact'} data-fact={id} data-type={fact.type}>
-      <p>{fact.text}</p>
+    <article className="fact" data-fact={id} data-type={fact.type}>
+      <p>
+        <LinkedText text={fact.text} exceptId={exceptId} />
+      </p>
       <div className="fact-meta">
         {showType ? <span className={`badge badge-${fact.type}`}>{TYPE_LABEL[fact.type]}</span> : null}
-        {showType && uncertain ? <strong className="unverified">Unverified</strong> : null}
         <IconButton label="Sources" expanded={open} controls={`${id}-sources`} onClick={() => setOpen((value) => !value)}>
           <IconSources />
         </IconButton>

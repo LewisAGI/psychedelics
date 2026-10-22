@@ -1,9 +1,10 @@
 import { useEffect, useState } from 'react';
 import { Link, NavLink, Outlet, useNavigate, useSearchParams } from 'react-router-dom';
 import { pack } from '../content';
-import { IconBook, IconClock, IconFilter, IconGlobe, IconLife, IconSearch } from '../icons';
+import { IconBook, IconClock, IconCompare, IconFilter, IconGlobe, IconGlossary, IconInteractions, IconLife, IconSearch } from '../icons';
 import { RESOURCES } from '../resources';
 import { readFamily } from '../filter';
+import { searchHits } from '../search';
 import { FAMILIES, FAMILY_LABEL, type Family } from '../types';
 import { IconButton } from './IconButton';
 
@@ -62,6 +63,8 @@ export function Shell() {
     setPanel((current) => (current === next ? null : next));
   }
 
+  const hits = searchHits(draft);
+
   function writeBrowse(nextQuery: string, nextFamily: Family | 'all') {
     const search = new URLSearchParams();
     if (nextQuery.trim()) search.set('q', nextQuery);
@@ -110,6 +113,17 @@ export function Shell() {
                   writeBrowse(next, family);
                 }}
               />
+              {hits.length > 0 ? (
+                <ul className="hit-list">
+                  {hits.map((hit) => (
+                    <li key={hit.href}>
+                      <Link to={hit.href} className="menu-option" onClick={() => setPanel(null)}>
+                        {hit.label}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              ) : null}
             </form>
           </div>
           <div className="tool">
@@ -196,6 +210,30 @@ export function Shell() {
             aria-label="Origins"
           >
             <IconGlobe />
+          </NavLink>
+          <NavLink
+            to="/glossary"
+            className={({ isActive }) => (isActive ? 'icon-button is-current' : 'icon-button')}
+            data-tip="Glossary"
+            aria-label="Glossary"
+          >
+            <IconGlossary />
+          </NavLink>
+          <NavLink
+            to="/interactions"
+            className={({ isActive }) => (isActive ? 'icon-button is-current' : 'icon-button')}
+            data-tip="Interactions"
+            aria-label="Interactions"
+          >
+            <IconInteractions />
+          </NavLink>
+          <NavLink
+            to="/compare"
+            className={({ isActive }) => (isActive ? 'icon-button is-current' : 'icon-button')}
+            data-tip="Compare"
+            aria-label="Compare"
+          >
+            <IconCompare />
           </NavLink>
         </div>
       </header>

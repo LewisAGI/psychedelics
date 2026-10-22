@@ -7,6 +7,7 @@ import { IconMinus, IconPlus } from '../icons';
 import { mapStyle } from '../map/style';
 import { ORIGINS } from '../origins';
 import { IconButton } from './IconButton';
+import { linkedHtml } from './LinkedText';
 
 setWorkerUrl(workerUrl);
 
@@ -56,7 +57,7 @@ export function OriginsMap() {
       for (const origin of ORIGINS) {
         const entry = entryById(origin.id);
         if (!entry) continue;
-        const fact = entry.historic_use.find((item) => item.text.includes(origin.place));
+        const fact = entry.historic_use.find((item) => item.type !== 'uncertain' && item.text.includes(origin.place));
         if (!fact) continue;
         bounds.extend([origin.lng, origin.lat]);
         const button = document.createElement('button');
@@ -74,7 +75,7 @@ export function OriginsMap() {
             .setHTML(
               `<a class="popup-title" href="/substance/${entry.id}">${escapeHtml(entry.name)}</a>
                <p class="popup-place">${escapeHtml(origin.place)}</p>
-               <p class="popup-summary">${escapeHtml(fact.text)}</p>`,
+               <p class="popup-summary">${linkedHtml(fact.text, entry.id)}</p>`,
             )
             .addTo(map);
         });

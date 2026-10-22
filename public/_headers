@@ -1,9 +1,23 @@
 # Hashed build assets can be cached for a year. HTML stays fresh.
+/*
+  Content-Security-Policy: default-src 'self'; img-src 'self' https://gibs.earthdata.nasa.gov data: blob:; worker-src blob: 'self'
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: no-referrer
+
 /assets/*
   Cache-Control: public, max-age=31536000, immutable
+  Content-Security-Policy: default-src 'self'; img-src 'self' https://gibs.earthdata.nasa.gov data: blob:; worker-src blob: 'self'
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: no-referrer
 
 /
   Cache-Control: no-cache
+  Content-Security-Policy: default-src 'self'; img-src 'self' https://gibs.earthdata.nasa.gov data: blob:; worker-src blob: 'self'
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: no-referrer
 
 /index.html
   Cache-Control: no-cache
+  Content-Security-Policy: default-src 'self'; img-src 'self' https://gibs.earthdata.nasa.gov data: blob:; worker-src blob: 'self'
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: no-referrer

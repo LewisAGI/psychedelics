@@ -94,3 +94,63 @@ export function IconMinus() {
     </svg>
   );
 }
+
+export function IconCompare() {
+  return (
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <rect x="4" y="5" width="6.5" height="14" rx="1.2" fill="none" stroke="currentColor" strokeWidth="2" />
+      <rect x="13.5" y="5" width="6.5" height="14" rx="1.2" fill="none" stroke="currentColor" strokeWidth="2" />
+    </svg>
+  );
+}
+
+export function IconGlossary() {
+  return (
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M4 17L8.4 6h1.7L14.5 17" fill="none" stroke="currentColor" strokeWidth="2" strokeLinejoin="round" strokeLinecap="round" />
+      <path d="M6 13h6.2" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+      <path d="M16.5 8.5h3.2M18.1 8.5V17" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+    </svg>
+  );
+}
+
+export function IconInteractions() {
+  return (
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <circle cx="7" cy="12" r="3" fill="none" stroke="currentColor" strokeWidth="2" />
+      <circle cx="17" cy="7" r="2.6" fill="none" stroke="currentColor" strokeWidth="2" />
+      <circle cx="17" cy="17" r="2.6" fill="none" stroke="currentColor" strokeWidth="2" />
+      <path d="M9.8 11.2 14.4 8.2M9.8 12.8l4.6 3" fill="none" stroke="currentColor" strokeWidth="2" />
+    </svg>
+  );
+}
+
+export function IconSections() {
+  return (
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M9 7h10M9 12h10M9 17h10" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+      <circle cx="5.2" cy="7" r="1" fill="currentColor" />
+      <circle cx="5.2" cy="12" r="1" fill="currentColor" />
+      <circle cx="5.2" cy="17" r="1" fill="currentColor" />
+    </svg>
+  );
+}
+
+export function IconRelated() {
+  return (
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <circle cx="7" cy="12" r="3" fill="none" stroke="currentColor" strokeWidth="2" />
+      <path d="M10 12h7M14 8l4 4-4 4" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+  );
+}
+
+export function IconPrint() {
+  return (
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M7 9V4h10v5" fill="none" stroke="currentColor" strokeWidth="2" />
+      <rect x="5" y="9" width="14" height="7" rx="1.4" fill="none" stroke="currentColor" strokeWidth="2" />
+      <path d="M8 14h8v6H8z" fill="none" stroke="currentColor" strokeWidth="2" />
+    </svg>
+  );
+}

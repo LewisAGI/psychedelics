@@ -12,14 +12,18 @@ describe('FactView', () => {
     expect(html).not.toContain('Unverified');
   });
 
-  it('badges an uncertain fact and marks it unverified', () => {
+  it('renders an inference badge', () => {
+    const html = renderToStaticMarkup(
+      <FactView fact={{ text: 'Extended claim.', sources: ['dea-sched'], type: 'inference' }} />,
+    );
+    expect(html).toContain('Inference');
+    expect(html).toContain('Extended claim.');
+  });
+
+  it('omits an uncertain fact', () => {
     const html = renderToStaticMarkup(
       <FactView fact={{ text: 'Press-report claim.', sources: ['maps-2026'], type: 'uncertain' }} />,
     );
-    expect(html).toContain('Uncertain');
-    expect(html).toContain('Unverified');
-    expect(html).toContain('is-uncertain');
-    expect(html).toContain('Press-report claim.');
-    expect(html).toContain('maps.org');
+    expect(html).toBe('');
   });
 });
