@@ -34,10 +34,10 @@ function Column({ entry }: { entry: Entry }) {
         headingId={`${entry.id}-effects`}
         exceptId={entry.id}
       />
-      <FactSection id={`${entry.id}-risks`} title="Risks" facts={entry.risks} exceptId={entry.id} />
-      <FactSection id={`${entry.id}-contraindications`} title="Contraindications" facts={entry.contraindications} exceptId={entry.id} />
-      <FactSection id={`${entry.id}-interactions`} title="Interactions" facts={entry.interactions} exceptId={entry.id} />
-      <FactSection id={`${entry.id}-harm`} title="Harm reduction" facts={entry.harm_reduction} exceptId={entry.id} />
+      <FactSection id={`${entry.id}-risks`} title="Risks" facts={entry.risks} exceptId={entry.id} safety />
+      <FactSection id={`${entry.id}-contraindications`} title="Contraindications" facts={entry.contraindications} exceptId={entry.id} safety />
+      <FactSection id={`${entry.id}-interactions`} title="Interactions" facts={entry.interactions} exceptId={entry.id} safety />
+      <FactSection id={`${entry.id}-harm`} title="Harm reduction" facts={entry.harm_reduction} exceptId={entry.id} safety />
     </div>
   );
 }

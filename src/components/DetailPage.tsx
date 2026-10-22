@@ -13,17 +13,18 @@ import { useLocalPanel } from '../useLocalPanel';
 
 function sectionLinks(entry: Entry): { href: string; label: string }[] {
   const links: { href: string; label: string }[] = [];
-  const add = (id: string, label: string, facts: Fact[]) => {
-    if (shownFacts(facts).length > 0) links.push({ href: `#${id}`, label });
+  const add = (id: string, label: string, facts: Fact[], safety = false) => {
+    const visible = safety ? facts : shownFacts(facts);
+    if (visible.length > 0) links.push({ href: `#${id}`, label });
   };
   add('history', 'History', entry.historic_use);
   add('modern', 'Modern use', entry.modern_clinical_use);
   add('legal', 'Legal and trial status', entry.legal_trial_status);
   add('effects', 'Effects', [...entry.effects_spectrum.positive, ...entry.effects_spectrum.negative]);
-  add('risks', 'Risks', entry.risks);
-  add('contraindications', 'Contraindications', entry.contraindications);
-  add('interactions', 'Interactions', entry.interactions);
-  add('harm', 'Harm reduction', entry.harm_reduction);
+  add('risks', 'Risks', entry.risks, true);
+  add('contraindications', 'Contraindications', entry.contraindications, true);
+  add('interactions', 'Interactions', entry.interactions, true);
+  add('harm', 'Harm reduction', entry.harm_reduction, true);
   if (entry.uncertainty.trim()) links.push({ href: '#unresolved', label: 'Unresolved' });
   return links;
 }
@@ -111,10 +112,10 @@ export function DetailPage() {
         negative={entry.effects_spectrum.negative}
         exceptId={entry.id}
       />
-      <FactSection id="risks" title="Risks" facts={entry.risks} exceptId={entry.id} />
-      <FactSection id="contraindications" title="Contraindications" facts={entry.contraindications} exceptId={entry.id} />
-      <FactSection id="interactions" title="Interactions" facts={entry.interactions} exceptId={entry.id} />
-      <FactSection id="harm" title="Harm reduction" facts={entry.harm_reduction} exceptId={entry.id} />
+      <FactSection id="risks" title="Risks" facts={entry.risks} exceptId={entry.id} safety />
+      <FactSection id="contraindications" title="Contraindications" facts={entry.contraindications} exceptId={entry.id} safety />
+      <FactSection id="interactions" title="Interactions" facts={entry.interactions} exceptId={entry.id} safety />
+      <FactSection id="harm" title="Harm reduction" facts={entry.harm_reduction} exceptId={entry.id} safety />
       {entry.uncertainty.trim() ? (
         <section aria-labelledby="unresolved">
           <h2 id="unresolved">Unresolved</h2>

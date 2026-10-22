@@ -25,10 +25,9 @@ export function FactView({
   const reactId = useId();
   const id = citeId ?? reactId;
   const [open, setOpen] = useState(false);
-  const hidden = fact.type === 'uncertain';
 
   useEffect(() => {
-    if (!open || hidden) return;
+    if (!open) return;
     const onDown = (event: PointerEvent) => {
       const element = event.target instanceof Element ? event.target : null;
       if (!element?.closest(`[data-fact="${id}"]`)) setOpen(false);
@@ -42,9 +41,7 @@ export function FactView({
       document.removeEventListener('pointerdown', onDown);
       document.removeEventListener('keydown', onKey);
     };
-  }, [open, id, hidden]);
-
-  if (hidden) return null;
+  }, [open, id]);
 
   return (
     <article className="fact" data-fact={id} data-type={fact.type}>

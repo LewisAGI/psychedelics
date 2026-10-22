@@ -9,14 +9,17 @@ export function FactSection({
   id,
   extra,
   exceptId,
+  safety = false,
 }: {
   title: string;
   facts: Fact[];
   id: string;
   extra?: ReactNode;
   exceptId?: string;
+  /** Risks, contraindications, interactions, and harm reduction keep uncertain rows. */
+  safety?: boolean;
 }) {
-  const visible = shownFacts(facts);
+  const visible = safety ? facts : shownFacts(facts);
   if (visible.length === 0 && !extra) return null;
   return (
     <section aria-labelledby={id}>

@@ -4,9 +4,15 @@ import { describe, expect, it } from 'vitest';
 
 describe('review fixes', () => {
   it('publishes CSP, nosniff, and a referrer policy', () => {
-    expect(headers).toContain("default-src 'self'");
-    expect(headers).toContain("img-src 'self' https://gibs.earthdata.nasa.gov data: blob:");
-    expect(headers).toContain("worker-src blob: 'self'");
+    const policies = headers.split('\n').filter((line) => line.includes('Content-Security-Policy'));
+    expect(policies).toHaveLength(1);
+    expect(policies[0]).toContain("default-src 'self'");
+    expect(policies[0]).toContain("script-src 'self'");
+    expect(policies[0]).toContain("connect-src 'self' https://gibs.earthdata.nasa.gov");
+    expect(policies[0]).toContain("object-src 'none'");
+    expect(policies[0]).toContain("base-uri 'none'");
+    expect(policies[0]).toContain("frame-ancestors 'none'");
+    expect(policies[0]).toContain("worker-src 'self' blob:");
     expect(headers).toContain('X-Content-Type-Options: nosniff');
     expect(headers).toContain('Referrer-Policy: no-referrer');
   });

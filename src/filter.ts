@@ -1,4 +1,3 @@
-import { allFacts } from './content';
 import { FAMILIES, type Entry, type Fact, type Family } from './types';
 
 /** Visible label for an EMA medicines-list row with no central authorisation. */
@@ -9,9 +8,24 @@ export function lacksCentralEuAuthorisation(fact: Fact): boolean {
   return fact.sources.includes('ema-dataset') && /no centrally authorised/i.test(fact.text);
 }
 
-/** Evidence and inference stay. Uncertain facts are withheld from the site. */
+/** Evidence and inference. Uncertain rows stay out of non-safety sections and out of search outside safety. */
 export function shownFacts(facts: Fact[]): Fact[] {
   return facts.filter((fact) => fact.type !== 'uncertain');
+}
+
+/** Risks, contraindications, interactions, and harm reduction keep uncertain rows. */
+function searchableFacts(entry: Entry): Fact[] {
+  return [
+    ...shownFacts(entry.historic_use),
+    ...shownFacts(entry.modern_clinical_use),
+    ...shownFacts(entry.legal_trial_status),
+    ...shownFacts(entry.effects_spectrum.positive),
+    ...shownFacts(entry.effects_spectrum.negative),
+    ...entry.risks,
+    ...entry.contraindications,
+    ...entry.interactions,
+    ...entry.harm_reduction,
+  ];
 }
 
 /** The methoxetamine entry is a stub in the pack. */
@@ -36,7 +50,7 @@ export function familyOf(entry: Entry): Family {
 export function matchesQuery(entry: Entry, query: string): boolean {
   const words = query.trim().toLowerCase().split(/\s+/).filter(Boolean);
   if (words.length === 0) return true;
-  const haystack = [entry.name, entry.class, entry.id, entry.uncertainty, ...shownFacts(allFacts(entry)).map((fact) => fact.text)]
+  const haystack = [entry.name, entry.class, entry.id, entry.uncertainty, ...searchableFacts(entry).map((fact) => fact.text)]
     .join('\n')
     .toLowerCase();
   return words.every((word) => haystack.includes(word));

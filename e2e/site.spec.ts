@@ -128,7 +128,12 @@ test('glossary, compare, interactions, and the timeline filter use the pack', as
   await page.goto('/interactions');
   await expect(page.getByRole('heading', { level: 1, name: 'Interactions' })).toBeVisible();
   await expect(page.getByText(/serotonin syndrome/).first()).toBeVisible();
-  await expect(page.getByText('Interaction data are limited')).toHaveCount(0);
+  await expect(page.getByText('Interaction data are limited')).toBeVisible();
+  await expect(page.getByText(/Combining with other drugs is unpredictable/)).toBeVisible();
+  await expect(page.getByText(/Combining cannabis with psychedelics/)).toBeVisible();
+  await expect(page.locator('#i-dom')).toContainText("street drug 'STP'");
+  await expect(page.locator('#i-dom')).toContainText('chlorpromazine');
+  await expect(page.getByText('Uncertain').first()).toBeVisible();
 
   await page.goto('/timeline');
   await page.getByRole('button', { name: 'Substance' }).click();

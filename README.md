@@ -4,7 +4,7 @@ A static educational site on psychedelic substances. Harm-reduction framing. Not
 
 The dataset is content pack v3 in [`data/`](data/README.md): 15 substances, 155 sourced facts, 21 timeline events, 12 further-reading items, and 55 sources. Citations were checked on 2026-10-22. The JSON shape is documented in [`data/schema.json`](data/schema.json) and [`data/README.md`](data/README.md).
 
-Each fact is `evidence`, `inference`, or `uncertain`. Evidence and inference are shown with a badge. Facts typed `uncertain` stay in the dataset and are omitted from the site, including search.
+Each fact is `evidence`, `inference`, or `uncertain`. Evidence and inference are shown with a badge. Facts typed `uncertain` stay in the dataset. They are omitted from history, research, legal status, effects, and from search, except in the safety sections (risks, contraindications, interactions, harm reduction), where they stay visible with an Uncertain badge.
 
 EU status comes from EMA's medicines list. Esketamine (Spravato) is the centrally authorised medicine. The other substances that list was checked for show **No EU central authorisation**, with that dataset as the source. National authorisations are outside that list. The methoxetamine entry is a stub and is marked Incomplete.
 

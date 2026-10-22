@@ -16,9 +16,9 @@ describe('browse', () => {
     expect(browse(pack.entries, 'no-such-substance', 'all')).toEqual([]);
   });
 
-  it('hides uncertain facts from search', () => {
+  it('hides non-safety uncertain facts from search and keeps safety rows', () => {
     expect(matchesQuery(entry('mdma'), 'resubmitted the NDA')).toBe(false);
-    expect(matchesQuery(entry('salvia'), 'Interaction data are limited')).toBe(false);
+    expect(matchesQuery(entry('salvia'), 'Interaction data are limited')).toBe(true);
     expect(matchesQuery(entry('mdma'), 'serotonin syndrome')).toBe(true);
   });
 });

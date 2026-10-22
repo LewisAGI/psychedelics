@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { pack } from '../content';
-import { interactionAnchor, interactionGroups } from '../interactions';
+import { interactionAnchor, interactionGroups, interactionLead } from '../interactions';
 import { FactView } from './FactView';
 
 export function InteractionsPage() {
@@ -24,9 +24,17 @@ export function InteractionsPage() {
               {group.entry.name}
             </Link>
           </h2>
-          {group.facts.map((fact, index) => (
-            <FactView key={index} fact={fact} citeId={`ix-${group.entry.id}-${index}`} exceptId={group.entry.id} />
-          ))}
+          {group.facts.map((fact, index) => {
+            const lead = interactionLead(group.entry, fact);
+            return (
+              <div key={index}>
+                {lead ? (
+                  <FactView fact={lead} citeId={`ix-${group.entry.id}-${index}-lead`} exceptId={group.entry.id} />
+                ) : null}
+                <FactView fact={fact} citeId={`ix-${group.entry.id}-${index}`} exceptId={group.entry.id} />
+              </div>
+            );
+          })}
         </section>
       ))}
     </div>

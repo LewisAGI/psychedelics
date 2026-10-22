@@ -20,10 +20,12 @@ describe('FactView', () => {
     expect(html).toContain('Extended claim.');
   });
 
-  it('omits an uncertain fact', () => {
+  it('badges an uncertain fact when a section renders it', () => {
     const html = renderToStaticMarkup(
       <FactView fact={{ text: 'Press-report claim.', sources: ['maps-2026'], type: 'uncertain' }} />,
     );
-    expect(html).toBe('');
+    expect(html).toContain('Uncertain');
+    expect(html).toContain('Press-report claim.');
+    expect(html).not.toContain('Unverified');
   });
 });
