@@ -1,0 +1,42 @@
+import { allFacts } from './content';
+import { FAMILIES, type Entry, type Fact, type Family } from './types';
+
+/** EMA medicines list: no central authorisation. The row still carries its source. */
+export function lacksCentralEuAuthorisation(fact: Fact): boolean {
+  return fact.sources.includes('ema-dataset') && /no centrally authorised/i.test(fact.text);
+}
+
+/** The methoxetamine entry is a stub in the pack. */
+export function isIncomplete(entry: Entry): boolean {
+  return entry.id === 'methoxetamine' || /\bstub\b/i.test(entry.uncertainty);
+}
+
+export function readFamily(value: string | null): Family | 'all' {
+  if (value && (FAMILIES as readonly string[]).includes(value)) return value as Family;
+  return 'all';
+}
+
+export function familyOf(entry: Entry): Family {
+  const label = entry.class.toLowerCase();
+  if (label.includes('entactogen')) return 'entactogen';
+  if (label.includes('dissociative')) return 'dissociative';
+  if (label.includes('not a classic psychedelic')) return 'other';
+  if (label.includes('psychedelic')) return 'classic';
+  return 'other';
+}
+
+export function matchesQuery(entry: Entry, query: string): boolean {
+  const words = query.trim().toLowerCase().split(/\s+/).filter(Boolean);
+  if (words.length === 0) return true;
+  const haystack = [entry.name, entry.class, entry.id, entry.uncertainty, ...allFacts(entry).map((fact) => fact.text)]
+    .join('\n')
+    .toLowerCase();
+  return words.every((word) => haystack.includes(word));
+}
+
+export function browse(entries: Entry[], query: string, family: Family | 'all'): Entry[] {
+  return entries.filter((entry) => {
+    if (family !== 'all' && familyOf(entry) !== family) return false;
+    return matchesQuery(entry, query);
+  });
+}
